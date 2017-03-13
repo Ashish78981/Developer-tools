@@ -1,0 +1,74 @@
+ 
+Google chrome developer tools:
+ 
+The Chrome Developer Tools (DevTools for short), are a set of web debugging tools built into Google Chrome. The DevTools provide access to internal access to 
+the browser and the application. DevTools are used efficiently to track down layout issues, set JavaScript breakpoints, and get insights for code optimization.
+ 
+Accessing the Dev tools:
+ 
+--> By using keyboard, Use "ctrl + shift + i" or "ctrl + shift + j" or "ctrl + shift + c" to access the DevTools. 
+
+ 							(Or)
+ 
+--> By manually clicking on the Chrome menu, which is one the Top right side of the corner and then select Tools > Developer tools.
+ 
+Dev tools window consists 8 tool bars on the top of its window. These are used to work with the document or app information including dom elements, resources and 
+sources.
+They are: --> Elements
+          --> Console
+       	  --> Network
+          --> Sources
+          --> Timeline
+          --> Profiles
+          --> Audits
+          --> Application
+ 
+Elements: The element panel lets us to see each and every element in one DOM tree and allows inspect and edit DOM elements. We can goto elements tab if we need to 
+find out id of a particular image tag or any other tags. You can also access the HTML snippet for some portion of the page.
+ 
+Console: It provides two main functions.
+Log diagnostic information in the development process by using console.log() and it is used to interact with document. It is used to access javascript methods, 
+objects etc.., We can also use the methods provided by command line API.
+ 
+Sources: Sources include all html, css and javascript files that are used to develop one application. We can pause the code with breakpoints. It reduces the 
+complexity of finding errors and fix them efficiently for developers, so that they can easily debug the javascript.
+ 
+Network: Network panel records information about each network operation on a page, including detailed timing data, HTTP request and response headers, cookies, 
+and more.
+         --> Use the Network panel to record and analyze network activity.
+	 --> View load information in aggregate or for individual resources.
+	 --> Filter and sort how resources are displayed.
+	 --> Save, copy, and clear network recordings.
+  	 --> Customize the Network panel to your needs.
+
+ The network panel consists of resource table, in which every network activity is recorded. The table is recorded chronologically with the earliest resources at 
+ the top. And also we can record and take the screen shots of network activity.
+
+Audits: It analyzes the page as it loads. Then provides suggestions and optimizations for decreasing page load time and increase perceived (and real) responsiveness. 
+By going to Pagespeed tools > Insights We can test and analyze the performance of a website on Desktop and Mobile.
+
+Timeline: The Timeline panel gives you a complete overview of where time is spent when loading and using your web app or page. All events, from loading resources to 
+parsing JavaScript, calculating styles, and repainting are plotted on a timeline. It is used to record and analyze all the activities int the application as it runs. 
+It is also used to test performance issues for the application. It can be used to record and take screen shots of page loading. 
+
+Profiles: It lets us to create a profile of the execution time and memory usage of a web page or app. These will be helpful in optimizing the code. There are three 
+types of profilers.
+
+          CPU Profiler: This helps in creating a profile, which contains the execution time spent in your page's javascript functions.
+ 	  Heap Profiler: It shows memory distribution by page's javascript objects and related DOM nodes.
+	  The JavaScript profile shows where execution time is spent in your scripts.
+
+Application: It inspects and manage storage, databases and caches. It performs following operations: 
+             View and edit local and session storage.
+	     Inspect and modify IndexedDB databases.
+	     Execute statements on a Web SQL database.
+	     View Application and Service Worker Caches.
+	     Clear all storage, databases, caches, and service workers with a single button click.
+If you are using local storage to store Key-value Pairs, you can inspect, delete and modify the KVP's from local storage pane. We cal also delete the data from 
+local storage. Session storage is same as local storage. 
+In the IndexedDB pane, you can view name of a database to view the security origin, name, and version of that database. If we expand the database, we can also 
+view number of objects and expand them to view key-value pairs. We cal modify them and click refresh to update them.
+WebSQL pane is used to query and modify websql databases.By clicking on a database name, we can open a console for that database. From here you can execute 
+statements on that database. By expanding a database, we can view tables' data. We can update table's values and refresh to view the changes.
+Use the Application Cache pane to inspect resources and rules that have been created via the Application Cache API.
+            
